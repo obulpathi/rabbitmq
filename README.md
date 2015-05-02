@@ -1,0 +1,2 @@
+# rabbitmq
+Load testing RabbitMQ
