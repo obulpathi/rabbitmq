@@ -1,0 +1,13 @@
+Ubuntu 13.10 Standard instance: 1 GB RAM, 1 vCPU
+RabbitMQ: 
+Erlang:
+
+VHosts Users  Messages Time
+1 vhost     1 producer      1 consumer      10K messages    32 sec
+1 vhost     2 producers     1 consumer      10K messages    32 sec
+1 vhost     5 producers     1 consumer      10K messages    32 sec
+1 vhost     20 producers    1 consumer      10K messages    90 sec
+1 vhost     50 producers    1 consumer      10K messages    227 sec
+1 vhost     100 producers   1 consumer      10K messages    520 sec
+
+
